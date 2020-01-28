@@ -1,0 +1,116 @@
+body{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	background: silver;
+	background-size:cover;
+	margin:0;
+	padding:0;
+	text-align:center; 
+}
+.pov1{
+	width:85%;
+	margin:auto;
+	overflow:hidden;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+header{
+	background: #DEB887;
+	color:#4C3327;
+	padding-top:10px;
+	min-height:70px;
+	border-bottom:#9A1750 3px solid;
+	height: 95px;
+}
+
+header a{
+	color:#4C3327;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+}
+header ul{
+	margin:0;
+	padding:0;
+}
+header li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+	
+}
+header #logo{
+	float:left;
+}
+header nav{
+	float:right;
+	margin-top: 35px;
+	margin-right: 20px;
+}
+header #logo img{
+	height:100px;
+	padding:0 60px;
+	margin-left: 50px;
+}
+header a:hover{
+	font-weight: bold;
+	padding:4px;
+}
+.koForma{
+	width:85%;
+	max-width:600px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	padding:30px 40px;
+	text-align:center;
+	padding:1px;
+	box-shadow: 0 0 20px grey;
+	margin:0;
+}
+.forma{
+	margin:9px 0;
+	padding:12px 18px;
+	border-radius: 8px;
+}
+.forma label{
+	display:block;
+	text-align: left;
+	text-transform: uppercase;
+}
+.forma input, .forma textarea{
+	width:100%;
+	background:none;
+	border:none;
+	border-bottom: 1px solid black;
+	outline:none;
+	margin-top: 6px;
+}
+#posalji{
+	background: #808080;
+	border: solid 1px;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	transition-duration: 1s;
+	margin-top: 15px;
+	text-decoration:none;
+}
+
+footer {
+	padding: 20px;
+	padding-top: 10px;
+	color:#DEB887;
+	background: #4C3327;
+	position: absolute;
+	right:0;
+	bottom:0;
+	left:0;
+	text-align:center; 
+}

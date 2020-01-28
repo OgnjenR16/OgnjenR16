@@ -1,0 +1,132 @@
+body{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	font-size: 20px;
+	line-height: 1.5;
+	background: url("../img/download.jpg") no-repeat -100px -180px;
+	margin:0;
+	padding:0;
+}
+.pov1{
+	width:85%;
+	margin:auto;
+	overflow:hidden;
+	background: #4C3327;
+	opacity: 0.7;
+	border:2px solid black;
+	border-radius: 120px;
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+header{
+	background: #DEB887;
+	color:#4C3327;
+	padding-top:10px;
+	min-height:70px;
+	border-bottom:#9A1750 3px solid;
+	height: 95px;
+}
+
+header a{
+	color:#4C3327;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+}
+header ul{
+	margin:0;
+	padding:0;
+}
+header li{
+	float:left;
+	display:inline;
+	padding:0 20px 0 20px;
+	
+}
+header #logo{
+	float:left;
+}
+header nav{
+	float:right;
+	margin-top: 35px;
+	margin-right: 20px;
+}
+header #logo img{
+	height:100px;
+	padding:0 60px;
+	margin-left: 50px;
+}
+header a:hover{
+	font-weight: bold;
+	padding:4px;
+}
+#pocetna1{
+	min-height:500px;
+	color:#F2EFE4;
+	border-bottom:#9A1750 3px solid;
+	height: 200px;
+}
+
+#pocetna1 p, h1{
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	text-decoration: underline;
+}
+#pocetnaSlike{
+	display:flex;
+	flex-direction: row;
+	background: #DEB887;
+	padding:2px;
+	border-bottom:#9A1750 3px solid;
+}
+#pocetnaSlike img{
+	margin: 5px;
+	width: 274px;
+	height: 200px;
+	border-radius: 100px;
+}
+#pocetnaSlike img:hover{
+	border-radius: 9px;
+}
+footer {
+	padding: 20px;
+	padding-top: 10px;
+	color:#DEB887;
+	background: #4C3327;
+	text-align: center;
+}
+@media screen and (max-width: 760px){
+	header {
+		height: 150px;
+		margin:0;
+		padding:0;
+
+	}
+	header #logo, header nav, header nav li{
+		float: none;
+		text-align:center;
+		width:100%;
+	}
+	header nav{
+		transform:translate(0, -90%);
+	}
+	#pocetnaSlike{
+		float:none;
+		display:block;
+	}
+	#pocetnaSlike img{
+		transform:translate(40%, 0%);
+	}
+	#pocetna1 {
+		padding-top: 5px;
+	}
+	#pocetna1 h1{
+		font-size: 22px;
+	}
+	#pocetna1 p{
+		font-size: 18px;
+	}
+
+} 
