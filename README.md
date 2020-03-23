@@ -1,2 +1,2 @@
-# School-Projects
-Only html, css project
+# School-Project
+Website made only with HTML and CSS
